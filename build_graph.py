@@ -15,6 +15,7 @@ import networkx as nx
 from langchain_groq import ChatGroq
 from langchain_core.messages import HumanMessage
 from dotenv import load_dotenv
+from llm_utils import safe_invoke
 
 load_dotenv()
 
@@ -42,14 +43,20 @@ def load_docs(folder: str) -> dict:
 
 
 def extract_triples(llm: ChatGroq, text: str) -> dict:
-    resp = llm.invoke([HumanMessage(content=EXTRACTION_PROMPT.format(text=text))])
+    resp = safe_invoke(llm, [HumanMessage(content=EXTRACTION_PROMPT.format(text=text))])
     content = resp.content.strip()
     # strip accidental code fences
     if content.startswith("```"):
         content = content.strip("`")
         content = content.split("\n", 1)[1] if "\n" in content else content
         content = content.rsplit("```", 1)[0]
-    return json.loads(content)
+    try:
+        return json.loads(content)
+    except json.JSONDecodeError:
+        # Model returned something that isn't valid JSON. Skip this doc with a
+        # visible warning instead of crashing the whole build.
+        print("WARNING: could not parse extraction output as JSON; skipping this document.")
+        return {"entities": [], "relations": []}
 
 
 def build_graph(docs: dict, llm: ChatGroq) -> nx.MultiDiGraph:

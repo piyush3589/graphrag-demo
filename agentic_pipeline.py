@@ -1,6 +1,15 @@
 """
 agentic_pipeline.py
 A small LangGraph wrapper around graph_retriever.graph_retrieve().
+
+This is the "control layer" on top of the GraphRAG "knowledge layer":
+instead of always doing one fixed graph walk, this agent decides whether
+the first attempt found enough to answer confidently, and if not, retries
+with a deeper hop count before giving up and generating an answer anyway.
+
+Flow:
+    search -> evaluate -> (retry with more hops) -> search -> evaluate -> answer
+                        -> (confident enough)      -----------------------> answer
 """
 
 from typing import TypedDict
@@ -8,6 +17,7 @@ from langgraph.graph import StateGraph, END
 from langchain_groq import ChatGroq
 from langchain_core.messages import HumanMessage, SystemMessage
 from graph_retriever import graph_retrieve
+from llm_utils import safe_invoke
 
 MAX_ATTEMPTS = 3
 
@@ -37,6 +47,10 @@ def search_node(state: AgentState, llm: ChatGroq) -> AgentState:
 
 
 def evaluate_node(state: AgentState) -> AgentState:
+    # "confident" here is a simple heuristic, not an LLM judgment call:
+    # did we actually find any seed entities and any context text at all?
+    # A real production version would have the LLM self-score the context's
+    # relevance instead of this rule-based check.
     state["confident"] = bool(state["seed_entities"]) and bool(state["context"].strip())
     return state
 
@@ -48,6 +62,7 @@ def route_after_evaluate(state: AgentState) -> str:
 
 
 def retry_node(state: AgentState) -> AgentState:
+    # widen the search: go one hop deeper next attempt
     state["hops"] += 1
     return state
 
@@ -60,7 +75,8 @@ def answer_node(state: AgentState, llm: ChatGroq) -> AgentState:
         )
         return state
 
-    resp = llm.invoke(
+    resp = safe_invoke(
+        llm,
         [
             SystemMessage(
                 content="Answer using ONLY the provided context. Be concise and cite which "

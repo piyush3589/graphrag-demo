@@ -13,6 +13,7 @@ import json
 import networkx as nx
 from langchain_groq import ChatGroq
 from langchain_core.messages import HumanMessage
+from llm_utils import safe_invoke
 
 
 def load_graph(path: str = "graph.json"):
@@ -30,7 +31,7 @@ def match_query_entities(llm: ChatGroq, query: str, known_entities: list[str]) -
         "does this question genuinely relate to? If NONE of them are actually relevant to "
         "the question's topic, respond with exactly: NONE"
     )
-    resp = llm.invoke([HumanMessage(content=prompt)])
+    resp = safe_invoke(llm, [HumanMessage(content=prompt)])
     raw = resp.content.strip()
     if raw.upper() == "NONE":
         return []
