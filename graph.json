@@ -1,0 +1,762 @@
+{
+  "graph": {
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+      {
+        "source_docs": [
+          "doc2_credit_risk.md",
+          "doc1_counterparty_risk.md"
+        ],
+        "id": "Counterparty"
+      },
+      {
+        "source_docs": [
+          "doc2_credit_risk.md",
+          "doc1_counterparty_risk.md"
+        ],
+        "id": "Transaction"
+      },
+      {
+        "source_docs": [
+          "doc1_counterparty_risk.md"
+        ],
+        "id": "Risk Rating"
+      },
+      {
+        "source_docs": [
+          "doc1_counterparty_risk.md"
+        ],
+        "id": "Transaction Monitoring System"
+      },
+      {
+        "source_docs": [
+          "doc1_counterparty_risk.md"
+        ],
+        "id": "Credit Risk policy"
+      },
+      {
+        "source_docs": [
+          "doc1_counterparty_risk.md"
+        ],
+        "id": "Collateral"
+      },
+      {
+        "source_docs": [
+          "doc1_counterparty_risk.md"
+        ],
+        "id": "Exposure limit"
+      },
+      {
+        "source_docs": [
+          "doc2_credit_risk.md",
+          "doc1_counterparty_risk.md"
+        ],
+        "id": "Enterprise Risk Framework"
+      },
+      {
+        "source_docs": [
+          "doc3_basel_iii.md",
+          "doc2_credit_risk.md",
+          "doc1_counterparty_risk.md"
+        ],
+        "id": "Market Risk"
+      },
+      {
+        "source_docs": [
+          "doc2_credit_risk.md",
+          "doc1_counterparty_risk.md",
+          "doc4_treasury_liquidity.md"
+        ],
+        "id": "Liquidity Risk"
+      },
+      {
+        "source_docs": [
+          "doc1_counterparty_risk.md"
+        ],
+        "id": "threshold"
+      },
+      {
+        "source_docs": [
+          "doc1_counterparty_risk.md"
+        ],
+        "id": "Re-evaluation"
+      },
+      {
+        "source_docs": [
+          "doc2_credit_risk.md",
+          "doc4_treasury_liquidity.md"
+        ],
+        "id": "Credit Risk"
+      },
+      {
+        "source_docs": [
+          "doc2_credit_risk.md"
+        ],
+        "id": "Exposure Limit"
+      },
+      {
+        "source_docs": [
+          "doc2_credit_risk.md"
+        ],
+        "id": "Probability of Default"
+      },
+      {
+        "source_docs": [
+          "doc2_credit_risk.md"
+        ],
+        "id": "Loss Given Default"
+      },
+      {
+        "source_docs": [
+          "doc2_credit_risk.md"
+        ],
+        "id": "Exposure at Default"
+      },
+      {
+        "source_docs": [
+          "doc2_credit_risk.md"
+        ],
+        "id": "Expected Loss"
+      },
+      {
+        "source_docs": [
+          "doc3_basel_iii.md",
+          "doc2_credit_risk.md",
+          "doc4_treasury_liquidity.md"
+        ],
+        "id": "Basel III"
+      },
+      {
+        "source_docs": [
+          "doc3_basel_iii.md",
+          "doc2_credit_risk.md"
+        ],
+        "id": "Capital"
+      },
+      {
+        "source_docs": [
+          "doc3_basel_iii.md",
+          "doc2_credit_risk.md"
+        ],
+        "id": "Risk-Weighted Assets"
+      },
+      {
+        "source_docs": [
+          "doc2_credit_risk.md"
+        ],
+        "id": "High Risk Rating"
+      },
+      {
+        "source_docs": [
+          "doc3_basel_iii.md",
+          "doc2_credit_risk.md",
+          "doc4_treasury_liquidity.md"
+        ],
+        "id": "Treasury Desk"
+      },
+      {
+        "source_docs": [
+          "doc2_credit_risk.md"
+        ],
+        "id": "Banks"
+      },
+      {
+        "source_docs": [
+          "doc2_credit_risk.md"
+        ],
+        "id": "These figures"
+      },
+      {
+        "source_docs": [
+          "doc3_basel_iii.md",
+          "doc2_credit_risk.md"
+        ],
+        "id": "Credit Risk exposures"
+      },
+      {
+        "source_docs": [
+          "doc3_basel_iii.md"
+        ],
+        "id": "Basel Committee on Banking Supervision"
+      },
+      {
+        "source_docs": [
+          "doc3_basel_iii.md"
+        ],
+        "id": "Liquidity"
+      },
+      {
+        "source_docs": [
+          "doc3_basel_iii.md"
+        ],
+        "id": "banks"
+      },
+      {
+        "source_docs": [
+          "doc3_basel_iii.md"
+        ],
+        "id": "Capital Adequacy Ratio"
+      },
+      {
+        "source_docs": [
+          "doc3_basel_iii.md"
+        ],
+        "id": "Operational Risk"
+      },
+      {
+        "source_docs": [
+          "doc3_basel_iii.md",
+          "doc4_treasury_liquidity.md"
+        ],
+        "id": "Liquidity Coverage Ratio"
+      },
+      {
+        "source_docs": [
+          "doc3_basel_iii.md",
+          "doc4_treasury_liquidity.md"
+        ],
+        "id": "high-quality liquid assets"
+      },
+      {
+        "source_docs": [
+          "doc3_basel_iii.md"
+        ],
+        "id": "30-day stress scenario"
+      },
+      {
+        "source_docs": [
+          "doc3_basel_iii.md"
+        ],
+        "id": "Liquidity Risk management"
+      },
+      {
+        "source_docs": [
+          "doc3_basel_iii.md"
+        ],
+        "id": "national regulator"
+      },
+      {
+        "source_docs": [
+          "doc3_basel_iii.md"
+        ],
+        "id": "regulators"
+      },
+      {
+        "source_docs": [
+          "doc3_basel_iii.md"
+        ],
+        "id": "bank's operations"
+      },
+      {
+        "source_docs": [
+          "doc3_basel_iii.md"
+        ],
+        "id": "dividend payments"
+      },
+      {
+        "source_docs": [
+          "doc3_basel_iii.md"
+        ],
+        "id": "Transaction approvals"
+      },
+      {
+        "source_docs": [
+          "doc3_basel_iii.md"
+        ],
+        "id": "Capital divided by Risk-Weighted Assets"
+      },
+      {
+        "source_docs": [
+          "doc3_basel_iii.md"
+        ],
+        "id": "banks hold high-quality liquid assets"
+      },
+      {
+        "source_docs": [
+          "doc3_basel_iii.md"
+        ],
+        "id": "Breach of Capital Adequacy Ratio or Liquidity Coverage Ratio"
+      },
+      {
+        "source_docs": [
+          "doc3_basel_iii.md"
+        ],
+        "id": "immediate escalation"
+      },
+      {
+        "source_docs": [
+          "doc4_treasury_liquidity.md"
+        ],
+        "id": "bank"
+      },
+      {
+        "source_docs": [
+          "doc4_treasury_liquidity.md"
+        ],
+        "id": "cash"
+      },
+      {
+        "source_docs": [
+          "doc4_treasury_liquidity.md"
+        ],
+        "id": "obligations"
+      },
+      {
+        "source_docs": [
+          "doc4_treasury_liquidity.md"
+        ],
+        "id": "Counterparties"
+      },
+      {
+        "source_docs": [
+          "doc4_treasury_liquidity.md"
+        ],
+        "id": "committed credit lines"
+      },
+      {
+        "source_docs": [
+          "doc4_treasury_liquidity.md"
+        ],
+        "id": "Transaction settlement"
+      },
+      {
+        "source_docs": [
+          "doc4_treasury_liquidity.md"
+        ],
+        "id": "liquidity asset buffers"
+      },
+      {
+        "source_docs": [
+          "doc4_treasury_liquidity.md"
+        ],
+        "id": "stress tests"
+      },
+      {
+        "source_docs": [
+          "doc4_treasury_liquidity.md"
+        ],
+        "id": "Counterparty default"
+      },
+      {
+        "source_docs": [
+          "doc4_treasury_liquidity.md"
+        ],
+        "id": "market-wide funding freeze"
+      },
+      {
+        "source_docs": [
+          "doc4_treasury_liquidity.md"
+        ],
+        "id": "Credit Risk event"
+      },
+      {
+        "source_docs": [
+          "doc4_treasury_liquidity.md"
+        ],
+        "id": "Liquidity Risk event"
+      }
+    ],
+    "edges": [
+      {
+        "relation": "linked to",
+        "source_doc": "doc1_counterparty_risk.md",
+        "source": "Counterparty",
+        "target": "Transaction",
+        "key": 0
+      },
+      {
+        "relation": "linked to",
+        "source_doc": "doc1_counterparty_risk.md",
+        "source": "Counterparty",
+        "target": "Transaction",
+        "key": 1
+      },
+      {
+        "relation": "fails to meet payment obligations on",
+        "source_doc": "doc2_credit_risk.md",
+        "source": "Counterparty",
+        "target": "Transaction",
+        "key": 2
+      },
+      {
+        "relation": "assigned",
+        "source_doc": "doc1_counterparty_risk.md",
+        "source": "Counterparty",
+        "target": "Risk Rating",
+        "key": 0
+      },
+      {
+        "relation": "Risk Rating changes",
+        "source_doc": "doc1_counterparty_risk.md",
+        "source": "Counterparty",
+        "target": "Counterparty",
+        "key": 0
+      },
+      {
+        "relation": "with High Risk Rating contributes more heavily to",
+        "source_doc": "doc2_credit_risk.md",
+        "source": "Counterparty",
+        "target": "Risk-Weighted Assets",
+        "key": 0
+      },
+      {
+        "relation": "breaches",
+        "source_doc": "doc1_counterparty_risk.md",
+        "source": "Transaction",
+        "target": "threshold",
+        "key": 0
+      },
+      {
+        "relation": "re-evaluated under",
+        "source_doc": "doc1_counterparty_risk.md",
+        "source": "Transaction",
+        "target": "Credit Risk policy",
+        "key": 0
+      },
+      {
+        "relation": "flags",
+        "source_doc": "doc1_counterparty_risk.md",
+        "source": "Transaction Monitoring System",
+        "target": "Transaction",
+        "key": 0
+      },
+      {
+        "relation": "includes",
+        "source_doc": "doc1_counterparty_risk.md",
+        "source": "Enterprise Risk Framework",
+        "target": "Market Risk",
+        "key": 0
+      },
+      {
+        "relation": "alongside",
+        "source_doc": "doc2_credit_risk.md",
+        "source": "Enterprise Risk Framework",
+        "target": "Market Risk",
+        "key": 1
+      },
+      {
+        "relation": "includes",
+        "source_doc": "doc1_counterparty_risk.md",
+        "source": "Enterprise Risk Framework",
+        "target": "Liquidity Risk",
+        "key": 0
+      },
+      {
+        "relation": "alongside",
+        "source_doc": "doc2_credit_risk.md",
+        "source": "Enterprise Risk Framework",
+        "target": "Liquidity Risk",
+        "key": 1
+      },
+      {
+        "relation": "arises when bank cannot meet",
+        "source_doc": "doc4_treasury_liquidity.md",
+        "source": "Liquidity Risk",
+        "target": "obligations",
+        "key": 0
+      },
+      {
+        "relation": "linked to",
+        "source_doc": "doc4_treasury_liquidity.md",
+        "source": "Liquidity Risk",
+        "target": "Credit Risk",
+        "key": 0
+      },
+      {
+        "relation": "triggers",
+        "source_doc": "doc1_counterparty_risk.md",
+        "source": "Re-evaluation",
+        "target": "Collateral",
+        "key": 0
+      },
+      {
+        "relation": "triggers",
+        "source_doc": "doc1_counterparty_risk.md",
+        "source": "Re-evaluation",
+        "target": "Exposure limit",
+        "key": 0
+      },
+      {
+        "relation": "is risk that",
+        "source_doc": "doc2_credit_risk.md",
+        "source": "Credit Risk",
+        "target": "Counterparty",
+        "key": 0
+      },
+      {
+        "relation": "measured using",
+        "source_doc": "doc2_credit_risk.md",
+        "source": "Credit Risk",
+        "target": "Probability of Default",
+        "key": 0
+      },
+      {
+        "relation": "measured using",
+        "source_doc": "doc2_credit_risk.md",
+        "source": "Credit Risk",
+        "target": "Loss Given Default",
+        "key": 0
+      },
+      {
+        "relation": "measured using",
+        "source_doc": "doc2_credit_risk.md",
+        "source": "Credit Risk",
+        "target": "Exposure at Default",
+        "key": 0
+      },
+      {
+        "relation": "sits within",
+        "source_doc": "doc2_credit_risk.md",
+        "source": "Credit Risk",
+        "target": "Enterprise Risk Framework",
+        "key": 0
+      },
+      {
+        "relation": "largest single risk category for",
+        "source_doc": "doc2_credit_risk.md",
+        "source": "Credit Risk",
+        "target": "Treasury Desk",
+        "key": 0
+      },
+      {
+        "relation": "combines with",
+        "source_doc": "doc2_credit_risk.md",
+        "source": "Probability of Default",
+        "target": "Loss Given Default",
+        "key": 0
+      },
+      {
+        "relation": "combines with",
+        "source_doc": "doc2_credit_risk.md",
+        "source": "Probability of Default",
+        "target": "Exposure at Default",
+        "key": 0
+      },
+      {
+        "relation": "estimate for each",
+        "source_doc": "doc2_credit_risk.md",
+        "source": "Expected Loss",
+        "target": "Counterparty",
+        "key": 0
+      },
+      {
+        "relation": "requires banks to hold minimum",
+        "source_doc": "doc2_credit_risk.md",
+        "source": "Basel III",
+        "target": "Capital",
+        "key": 0
+      },
+      {
+        "relation": "developed by",
+        "source_doc": "doc3_basel_iii.md",
+        "source": "Basel III",
+        "target": "Basel Committee on Banking Supervision",
+        "key": 0
+      },
+      {
+        "relation": "requires",
+        "source_doc": "doc3_basel_iii.md",
+        "source": "Basel III",
+        "target": "banks",
+        "key": 0
+      },
+      {
+        "relation": "introduced",
+        "source_doc": "doc3_basel_iii.md",
+        "source": "Basel III",
+        "target": "Liquidity Coverage Ratio",
+        "key": 0
+      },
+      {
+        "relation": "proportional to",
+        "source_doc": "doc2_credit_risk.md",
+        "source": "Capital",
+        "target": "Risk-Weighted Assets",
+        "key": 0
+      },
+      {
+        "relation": "calculated from",
+        "source_doc": "doc2_credit_risk.md",
+        "source": "Risk-Weighted Assets",
+        "target": "Credit Risk exposures",
+        "key": 0
+      },
+      {
+        "relation": "derived from",
+        "source_doc": "doc3_basel_iii.md",
+        "source": "Risk-Weighted Assets",
+        "target": "Credit Risk exposures",
+        "key": 1
+      },
+      {
+        "relation": "derived from",
+        "source_doc": "doc3_basel_iii.md",
+        "source": "Risk-Weighted Assets",
+        "target": "Market Risk",
+        "key": 0
+      },
+      {
+        "relation": "derived from",
+        "source_doc": "doc3_basel_iii.md",
+        "source": "Risk-Weighted Assets",
+        "target": "Operational Risk",
+        "key": 0
+      },
+      {
+        "relation": "manages",
+        "source_doc": "doc4_treasury_liquidity.md",
+        "source": "Treasury Desk",
+        "target": "bank",
+        "key": 0
+      },
+      {
+        "relation": "ensures holds",
+        "source_doc": "doc4_treasury_liquidity.md",
+        "source": "Treasury Desk",
+        "target": "cash",
+        "key": 0
+      },
+      {
+        "relation": "ensures holds",
+        "source_doc": "doc4_treasury_liquidity.md",
+        "source": "Treasury Desk",
+        "target": "high-quality liquid assets",
+        "key": 0
+      },
+      {
+        "relation": "maintains buffer of",
+        "source_doc": "doc4_treasury_liquidity.md",
+        "source": "Treasury Desk",
+        "target": "high-quality liquid assets",
+        "key": 1
+      },
+      {
+        "relation": "monitors",
+        "source_doc": "doc4_treasury_liquidity.md",
+        "source": "Treasury Desk",
+        "target": "Liquidity Coverage Ratio",
+        "key": 0
+      },
+      {
+        "relation": "runs",
+        "source_doc": "doc4_treasury_liquidity.md",
+        "source": "Treasury Desk",
+        "target": "stress tests",
+        "key": 0
+      },
+      {
+        "relation": "manage",
+        "source_doc": "doc2_credit_risk.md",
+        "source": "Banks",
+        "target": "Credit Risk",
+        "key": 0
+      },
+      {
+        "relation": "produce",
+        "source_doc": "doc2_credit_risk.md",
+        "source": "These figures",
+        "target": "Expected Loss",
+        "key": 0
+      },
+      {
+        "relation": "maintain",
+        "source_doc": "doc3_basel_iii.md",
+        "source": "banks",
+        "target": "Capital Adequacy Ratio",
+        "key": 0
+      },
+      {
+        "relation": "report to",
+        "source_doc": "doc3_basel_iii.md",
+        "source": "banks",
+        "target": "national regulator",
+        "key": 0
+      },
+      {
+        "relation": "calculated as",
+        "source_doc": "doc3_basel_iii.md",
+        "source": "Capital Adequacy Ratio",
+        "target": "Capital divided by Risk-Weighted Assets",
+        "key": 0
+      },
+      {
+        "relation": "requires",
+        "source_doc": "doc3_basel_iii.md",
+        "source": "Liquidity Coverage Ratio",
+        "target": "banks hold high-quality liquid assets",
+        "key": 0
+      },
+      {
+        "relation": "falls under",
+        "source_doc": "doc3_basel_iii.md",
+        "source": "Liquidity Coverage Ratio",
+        "target": "Liquidity Risk management",
+        "key": 0
+      },
+      {
+        "relation": "owned by",
+        "source_doc": "doc3_basel_iii.md",
+        "source": "Liquidity Risk management",
+        "target": "Treasury Desk",
+        "key": 0
+      },
+      {
+        "relation": "restrict",
+        "source_doc": "doc3_basel_iii.md",
+        "source": "regulators",
+        "target": "bank's operations",
+        "key": 0
+      },
+      {
+        "relation": "include",
+        "source_doc": "doc3_basel_iii.md",
+        "source": "bank's operations",
+        "target": "dividend payments",
+        "key": 0
+      },
+      {
+        "relation": "include",
+        "source_doc": "doc3_basel_iii.md",
+        "source": "bank's operations",
+        "target": "Transaction approvals",
+        "key": 0
+      },
+      {
+        "relation": "requires",
+        "source_doc": "doc3_basel_iii.md",
+        "source": "Breach of Capital Adequacy Ratio or Liquidity Coverage Ratio",
+        "target": "immediate escalation",
+        "key": 0
+      },
+      {
+        "relation": "draw on",
+        "source_doc": "doc4_treasury_liquidity.md",
+        "source": "Counterparties",
+        "target": "committed credit lines",
+        "key": 0
+      },
+      {
+        "relation": "falls on day low",
+        "source_doc": "doc4_treasury_liquidity.md",
+        "source": "Transaction settlement",
+        "target": "liquidity asset buffers",
+        "key": 0
+      },
+      {
+        "relation": "triggers",
+        "source_doc": "doc4_treasury_liquidity.md",
+        "source": "Credit Risk event",
+        "target": "Liquidity Risk event",
+        "key": 0
+      }
+    ]
+  },
+  "docs": {
+    "doc1_counterparty_risk.md": "# Counterparty Risk and Transaction Monitoring\n\nA Counterparty is any external party a bank transacts with \u2014 another bank, a corporate client, or a government entity. Every Transaction is linked to a Counterparty, and each Counterparty is assigned a Risk Rating (Low, Medium, High) based on factors such as credit history, jurisdiction, and industry sector.\n\nThe Transaction Monitoring System flags transactions for manual review when they breach predefined thresholds \u2014 for example, a large payment to a Counterparty rated High risk, or a transaction routed through a jurisdiction on a sanctions watchlist.\n\nWhen a Counterparty's Risk Rating changes (for example, following a credit downgrade), all open Transactions linked to that Counterparty are automatically re-evaluated under Credit Risk policy. This re-evaluation may trigger additional collateral requirements or a reduction in the Counterparty's approved exposure limit.\n\nCounterparty Risk is one of several categories monitored under the bank's broader Enterprise Risk Framework, alongside Market Risk and Liquidity Risk.\n",
+    "doc2_credit_risk.md": "# Credit Risk\n\nCredit Risk is the risk that a Counterparty fails to meet its payment obligations on a Transaction. Banks manage Credit Risk by setting an Exposure Limit per Counterparty \u2014 the maximum amount the bank is willing to have outstanding with that party at any time.\n\nCredit Risk is measured using Probability of Default (PD), Loss Given Default (LGD), and Exposure at Default (EAD). These three figures combine to produce an Expected Loss estimate for each Counterparty relationship.\n\nUnder the Basel III regulatory framework, banks must hold a minimum level of Capital proportional to their Risk-Weighted Assets, which are calculated directly from Credit Risk exposures across all Counterparties. A Counterparty with a High Risk Rating contributes more heavily to Risk-Weighted Assets, increasing the Capital the bank must hold against it.\n\nCredit Risk sits within the Enterprise Risk Framework alongside Market Risk and Liquidity Risk, and is typically the largest single risk category for a commercial bank's Treasury Desk to manage.\n",
+    "doc3_basel_iii.md": "# Basel III and Regulatory Capital\n\nBasel III is an international regulatory framework, developed by the Basel Committee on Banking Supervision, that sets minimum Capital and liquidity requirements for banks. It was introduced in response to weaknesses in bank capital regulation exposed by the 2008 financial crisis.\n\nBasel III requires banks to maintain a minimum Capital Adequacy Ratio, calculated as Capital divided by Risk-Weighted Assets. Risk-Weighted Assets are derived primarily from Credit Risk exposures, with additional weightings for Market Risk and Operational Risk.\n\nBasel III also introduced the Liquidity Coverage Ratio, which requires banks to hold enough high-quality liquid assets to survive a 30-day stress scenario. This requirement falls under Liquidity Risk management, typically owned by the Treasury Desk.\n\nBanks report Basel III compliance metrics to their national regulator on a periodic basis. A breach of the Capital Adequacy Ratio or Liquidity Coverage Ratio requires immediate escalation and a remediation plan, since regulators can restrict a bank's operations \u2014 including dividend payments and new Transaction approvals \u2014 until compliance is restored.\n",
+    "doc4_treasury_liquidity.md": "# Treasury Desk and Liquidity Risk\n\nThe Treasury Desk is responsible for managing a bank's overall funding, liquidity position, and interest rate exposure. It ensures the bank always holds enough cash and high-quality liquid assets to meet obligations as they fall due \u2014 this is the core of Liquidity Risk management.\n\nLiquidity Risk arises when a bank cannot meet short-term obligations without incurring unacceptable losses, for example if too many Counterparties draw on committed credit lines at once, or if a large Transaction settlement falls on a day when liquid asset buffers are already low.\n\nThe Treasury Desk monitors the Liquidity Coverage Ratio daily, a metric mandated under Basel III, and maintains a buffer of high-quality liquid assets above the regulatory minimum. It also runs stress tests simulating scenarios such as a sudden Counterparty default or a market-wide funding freeze.\n\nLiquidity Risk is closely linked to Credit Risk: a wave of Counterparty defaults not only creates direct losses but can also drain the liquid asset buffers the Treasury Desk relies on, creating a Liquidity Risk event triggered by a Credit Risk event.\n"
+  }
+}
